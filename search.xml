@@ -4,6 +4,19 @@
   
     
     <entry>
+      <title>3Blue1Brown深度学习</title>
+      <link href="/2024/02/16/DeepLearning-3Blue1Brown/"/>
+      <url>/2024/02/16/DeepLearning-3Blue1Brown/</url>
+      
+        <content type="html"><![CDATA[<p>最近重温了3Blue1brown的深度学习系列视频，以前看的时候往往囫囵吞枣，在有了更多对神经网络的感悟后，再看豁然开朗了很多，特此写下这篇心得感悟。</p><h3 id="The-Structure-of-a-Neural-Network"><a href="#The-Structure-of-a-Neural-Network" class="headerlink" title="The Structure of a Neural Network"></a>The Structure of a Neural Network</h3><p>在开始之前，可以去官网看一下大佬的动画例子，是识别一个手写数字，可以生动直观的看到推理的整个流程。</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">https://www.3blue1brown.com/lessons/neural-networks</span><br></pre></td></tr></table></figure><p>这里跳过已知的前置基础知识，直接深入核心重点。本小节主要介绍神经网络的结构的数学表示，用一个最简单的MLP(多层感知机)来举例说明。</p><p><img src="/..%5Cimg%5CNetwork%5Cnetwork1.png" alt="img"><br>在3Blue1Brown博主的理解中，Neuron指的是“a thing that holds a number.”通常在0到1之间(通过了sigmoid函数)，神经网络可以看成一些神经元相连。所有的信息都存储在神经元中，可以将输入看成28x28&#x3D;784的神经元，而输出则是10个显示数值的神经元，高亮的即为该网络认为的数字。这里将图像中的每个像素看成neuron的观点挺新颖。</p><p><img src="/..%5Cimg%5CNetwork%5Cnetwork2.png" alt="img"></p><p>比起表面的层，我们当然更关心hidden layers做了什么，通常在进行识别时，我们会将一个数字拆开成几部分(这源于过去对人类图像识别的医学研究)，神经网络便是借鉴了这个思想。从下图可以看出组合拆解关系：</p><p><img src="/..%5Cimg%5CNetwork%5Cnetwork3.png" alt="img"></p><p>理想情况下我们假设倒数第一层便是这些代表这些部分的神经元，而前一层的神经元便是更细的特征，或者说有限的神经元代表特征的一些特定组合。当输入一个数字时，它相关的特征神经元被激活，进而传导到下一层，最终到分类层。从某种角度上来说，更深的网络可以完成更复杂的问题。问题被分的足够碎，模型更有把握。同时这种特性几乎可以拓展到其他领域，比如nlp，speech等。</p><p><img src="/..%5Cimg%5CNetwork%5Cnetwork4.png" alt="img"></p><p>对于下面图中展示的公式，我们并不陌生，是很典型的MLP线性回归运算公式，</p><p><img src="/..%5Cimg%5CNetwork%5Cnetwork6.png" alt="img"></p><p>一个之前没想到的点是权重代表了我们在图中看到的连线，有多少线，就有多少种权重联系，在网络学习的过程中，实质上是在学习特征关系，或者说：事物的潜在联系，是关于特征的，具有逻辑性。下图做了一个简单的计算，求取了这样一个简单的网络所具有的连接。所谓的学习，便是寻找正确的weights和bias。</p><p><img src="/..%5Cimg%5CNetwork%5Cnetwork5.png" alt="img"></p><p>至此，对网络结构有了一个可解释的认识。</p><p>持续更新中……</p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Hello World</title>
       <link href="/2024/02/07/hello-world/"/>
       <url>/2024/02/07/hello-world/</url>
