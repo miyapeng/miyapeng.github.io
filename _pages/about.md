@@ -20,11 +20,6 @@ announcements:
   enabled: true # includes a list of news items
   scrollable: true # adds a vertical scroll bar if there are more than 3 news items
   limit: 5 # leave blank to include all the news in the `_news` folder
-
-latest_posts:
-  enabled: true
-  scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
-  limit: 3 # leave blank to include all the blog posts
 ---
 
 I am an incoming phd student of University of Science and Technology of China(USTC) advised by [Qing Li](https://liqing.io/) and [Jie Wang](https://miralab.ai/people/jie-wang/). I will receive my bachelor's degree from Harbin Institute of Technology(HIT) in 2025. 
