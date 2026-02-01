@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
 subtitle: miyapeng78@gmail.com
 
@@ -23,6 +23,6 @@ announcements:
   limit: 5 # leave blank to include all the news in the `_news` folder
 ---
 
-I am an incoming phd student of University of Science and Technology of China(USTC) advised by [Qing Li](https://liqing.io/) and [Jie Wang](https://miralab.ai/people/jie-wang/). I will receive my bachelor's degree from Harbin Institute of Technology(HIT) in 2025. 
+I am a phd student of University of Science and Technology of China(USTC) advised by [Qing Li](https://liqing.io/) and [Jie Wang](https://miralab.ai/people/jie-wang/). I receive my bachelor's degree from Harbin Institute of Technology(HIT) in 2025. 
 
-Currently, I am focusing on research in LLM Agents, multimodality, and reinforcement learning. If you are interested in collaborating with me, please email me at miyapeng78@gmail.com.
+Currently, I am focusing on research in Multimodal and LLM Agents. If you are interested in collaborating with me, please email me at miyapeng78@gmail.com.
