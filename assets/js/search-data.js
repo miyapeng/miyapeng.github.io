@@ -377,7 +377,7 @@ ninja.data = [{
           title: 'New position paper on system-level principles for building LLM agents: See paper for...',
           description: "",
           section: "News",},{id: "news-one-paper-is-accepted-by-neurips-2025-sport",
-          title: 'One paper is accepted by NeurIPS 2025!: 👉 SPORT',
+          title: 'One paper is accepted by NeurIPS 2025! 👉 SPORT',
           description: "",
           section: "News",},{id: "news-one-paper-is-accepted-by-iclr-2026-milr",
           title: 'One paper is accepted by ICLR 2026! 👉 MILR',
