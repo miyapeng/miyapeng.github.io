@@ -21,8 +21,16 @@ announcements:
   enabled: true # includes a list of news items
   scrollable: true # adds a vertical scroll bar if there are more than 3 news items
   limit: 5 # leave blank to include all the news in the `_news` folder
+
+educations:
+  - year: "2025 - Present"
+    title: "PhD student in Information and Communication Engineering, University of Science and Technology of China(USTC), China"
+    icon: "ustc_logo.png"
+  - year: "2021 - 2025"
+    title: "BSc in Computer Science, Harbin Institute of Technology (BIT), China"
+    icon: "hit_logo.png"
 ---
 
-I am a phd student of University of Science and Technology of China(USTC) advised by [Qing Li](https://liqing.io/) and [Jie Wang](https://miralab.ai/people/jie-wang/). I receive my bachelor's degree from Harbin Institute of Technology(HIT) in 2025. 
+I am a phd student of University of Science and Technology of China(USTC) ,advised by [Qing Li](https://liqing.io/) and [Jie Wang](https://miralab.ai/people/jie-wang/). Previously, I receive my bachelor's degree in Computer Science and Technology from Harbin Institute of Technology(HIT) in 2025. 
 
-Currently, I am focusing on research in Multimodal and LLM Agents. If you are interested in collaborating with me, please email me at miyapeng78@gmail.com.
+Currently, I am focusing on research in Multimodal and LLM Agents.  Feel free to reach out if you are interested in my work! 🤝
