@@ -373,16 +373,14 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-a-simple-inline-announcement",
-          title: 'A simple inline announcement.',
+            },},{id: "news-new-position-paper-on-system-level-principles-for-building-llm-agents-see-paper-for-details",
+          title: 'New position paper on system-level principles for building LLM agents: See paper for...',
           description: "",
-          section: "News",},{id: "news-a-long-announcement-with-details",
-          title: 'A long announcement with details',
+          section: "News",},{id: "news-one-co-authored-paper-is-accepted-by-neurips-2025-sport-for-details",
+          title: 'One co-authored paper is accepted by NeurIPS 2025!: 👉 SPORT for details.',
           description: "",
-          section: "News",handler: () => {
-              window.location.href = "/news/announcement_2/";
-            },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
-          title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
+          section: "News",},{id: "news-one-paper-is-accepted-by-iclr-2026-milr",
+          title: 'One paper is accepted by ICLR 2026! 👉 MILR.',
           description: "",
           section: "News",},{id: "projects-project-1",
           title: 'project 1',
