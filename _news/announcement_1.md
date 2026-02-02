@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2015-10-22 15:59:00-0400
+date: 2025-04-10
 inline: true
 related_posts: false
 ---
 
-A simple inline announcement.
+New position paper on system-level principles for building LLM agents: See [<span style="color:#B91AB1;"><b>paper</b></span>](https://arxiv.org/pdf/2504.04485) for details.

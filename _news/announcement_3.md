@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2016-01-15 07:59:00-0400
+date: 2026-01-15
 inline: true
 related_posts: false
 ---
 
-A simple inline announcement with Markdown emoji! :sparkles: :smile:
+**One paper is accepted by ICLR 2026!** 👉 [<span style="color:#B91AB1;"><b>MILR</b></span>](https://spatigen.github.io/milr.io/).
