@@ -37,6 +37,6 @@ educations:
     icon: "hit_logo.png"
 ---
 
-I am a phd student of University of Science and Technology of China(USTC) ,advised by [Qing Li](https://liqing.io/) and [Jie Wang](https://miralab.ai/people/jie-wang/). Previously, I receive my bachelor's degree in Computer Science and Technology from Harbin Institute of Technology(HIT) in 2025. 
+I am a phd student of University of Science and Technology of China(USTC) ,advised by [Jie Wang](https://miralab.ai/people/jie-wang/). Previously, I receive my bachelor's degree in Computer Science and Technology from Harbin Institute of Technology(HIT) in 2025. 
 
 Currently, I am focusing on research in **Multimodal and LLM Agents**.  Feel free to reach out if you are interested in my work! 🤝
