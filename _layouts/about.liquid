@@ -84,11 +84,11 @@ layout: default
 
     
     <!-- Education -->
-    {% if page.education %}
+    {% if page.education or page.educations %}
       <h2>
         <a href="{{ '/education/' | relative_url }}" style="color: inherit">Education</a>
       </h2>
-    {% include education.liquid %}
+      {% include education.liquid %}
     {% endif %}
 
 

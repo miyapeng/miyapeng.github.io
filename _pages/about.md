@@ -16,7 +16,7 @@ profile:
 news: true # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
-# education: true # includes a list of education items
+education: true # includes a list of education items
 
 announcements:
   enabled: true # includes a list of news items
@@ -33,7 +33,7 @@ educations:
     title: "PhD student in Information and Communication Engineering, University of Science and Technology of China(USTC), China"
     icon: "ustc_logo.png"
   - year: "2021 - 2025"
-    title: "BSc in Computer Science, Harbin Institute of Technology (BIT), China"
+    title: "BSc in Computer Science, Harbin Institute of Technology (HIT), China"
     icon: "hit_logo.png"
 ---
 

@@ -871,6 +871,61 @@ footer.sticky-bottom {
   }
 }
 
+// Education
+
+.education-list {
+  margin-top: 1rem;
+}
+
+.education-item {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem 0;
+  border-bottom: 1px solid var(--global-divider-color);
+}
+
+.education-item:first-child {
+  border-top: 1px solid var(--global-divider-color);
+}
+
+.education-logo {
+  width: 64px;
+  height: 64px;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.education-logo img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+
+.education-year {
+  font-size: 0.95rem;
+  color: var(--global-text-color-light);
+  margin-bottom: 0.25rem;
+}
+
+.education-title {
+  font-weight: 500;
+  line-height: 1.5;
+}
+
+@media (max-width: 576px) {
+  .education-item {
+    align-items: flex-start;
+  }
+
+  .education-logo {
+    width: 52px;
+    height: 52px;
+  }
+}
+
 // Rouge Color Customization
 figure.highlight {
   margin: 0 0 1rem;

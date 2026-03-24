@@ -1,0 +1,19 @@
+{% if page.educations and page.educations.size > 0 %}
+  <div class="education-list">
+    {% for item in page.educations %}
+      <div class="education-item">
+        {% if item.icon %}
+          <div class="education-logo">
+            <img src="{{ item.icon | prepend: 'assets/img/' | relative_url }}" alt="{{ item.title }}">
+          </div>
+        {% endif %}
+        <div class="education-content">
+          {% if item.year %}
+            <div class="education-year">{{ item.year }}</div>
+          {% endif %}
+          <div class="education-title">{{ item.title }}</div>
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+{% endif %}
