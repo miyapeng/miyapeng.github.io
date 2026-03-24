@@ -31,7 +31,7 @@ latest_posts:
 educations:
   - year: "2025 - Present"
     title: "PhD student in Information and Communication Engineering, University of Science and Technology of China(USTC), China"
-    icon: "ustc_logo.png"
+    icon: "ustc_logo.jpg"
   - year: "2021 - 2025"
     title: "BSc in Computer Science, Harbin Institute of Technology (HIT), China"
     icon: "hit_logo.png"

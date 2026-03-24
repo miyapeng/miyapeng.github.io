@@ -1,17 +1,18 @@
 {% if page.educations and page.educations.size > 0 %}
-  <div class="education-list">
-    {% for item in page.educations %}
-      <div class="education-item">
-        {% if item.icon %}
-          <div class="education-logo">
-            <img src="{{ item.icon | prepend: 'assets/img/' | relative_url }}" alt="{{ item.title }}">
+  <div class="education">
+    {% for edu in page.educations %}
+      <div class="edu-entry d-flex align-items-center">
+        {% if edu.icon %}
+          <div class="edu-icon">
+            {% assign entry_path = edu.icon | prepend: '/assets/img/' %}
+            {% include figure.liquid loading="eager" path=entry_path width="56px" class="preview z-depth-1 rounded" alt=edu.title %}
           </div>
         {% endif %}
-        <div class="education-content">
-          {% if item.year %}
-            <div class="education-year">{{ item.year }}</div>
+        <div class="edu-info">
+          {% if edu.year %}
+            <p class="edu-year mb-1"><strong>{{ edu.year }}</strong></p>
           {% endif %}
-          <div class="education-title">{{ item.title }}</div>
+          <p class="edu-title mb-0">{{ edu.title }}</p>
         </div>
       </div>
     {% endfor %}
