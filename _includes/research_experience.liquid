@@ -1,0 +1,56 @@
+{% if page.experiences and page.experiences.size > 0 %}
+  <div class="research-experience">
+    {% for experience in page.experiences %}
+      <article class="experience-entry">
+        {% if experience.icon %}
+          {% assign logo_path = experience.icon | prepend: '/assets/img/' %}
+          {% if experience.institution_url %}
+            <a
+              class="experience-logo"
+              href="{{ experience.institution_url }}"
+              aria-label="Visit {{ experience.institution }} website"
+            >
+              {% include figure.liquid loading="lazy" path=logo_path alt=experience.institution %}
+            </a>
+          {% else %}
+            <div class="experience-logo">
+              {% include figure.liquid loading="lazy" path=logo_path alt=experience.institution %}
+            </div>
+          {% endif %}
+        {% endif %}
+
+        <div class="experience-info">
+          <div class="experience-heading">
+            <h3 class="experience-institution">
+              {% if experience.institution_url %}
+                <a href="{{ experience.institution_url }}">{{ experience.institution }}</a>
+              {% else %}
+                {{ experience.institution }}
+              {% endif %}
+            </h3>
+            <span class="experience-period">{{ experience.period }}</span>
+          </div>
+
+          <p class="experience-details">
+            <span class="experience-role">{{ experience.role }}</span>
+            {% if experience.mentor %}
+              <span class="experience-separator" aria-hidden="true">·</span>
+              <span>
+                Mentor:
+                {% if experience.mentor_url %}
+                  <a href="{{ experience.mentor_url }}">{{ experience.mentor }}</a>
+                {% else %}
+                  {{ experience.mentor }}
+                {% endif %}
+              </span>
+            {% endif %}
+          </p>
+
+          {% if experience.focus %}
+            <p class="experience-focus"><strong>Research Focus:</strong> {{ experience.focus }}</p>
+          {% endif %}
+        </div>
+      </article>
+    {% endfor %}
+  </div>
+{% endif %}

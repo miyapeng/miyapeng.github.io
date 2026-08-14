@@ -871,6 +871,134 @@ footer.sticky-bottom {
   }
 }
 
+// Research Experience
+
+.research-experience {
+  margin: 0.75rem 0 2.25rem;
+}
+
+.research-experience .experience-entry {
+  display: flex;
+  align-items: center;
+  gap: 1.25rem;
+  padding: 1.1rem 0;
+  border-bottom: 1px solid var(--global-divider-color);
+}
+
+.research-experience .experience-entry:first-child {
+  padding-top: 0.35rem;
+}
+
+.research-experience .experience-entry:last-child {
+  border-bottom: 0;
+  padding-bottom: 0;
+}
+
+.research-experience .experience-logo {
+  display: flex;
+  flex: 0 0 108px;
+  align-items: center;
+  justify-content: center;
+  width: 108px;
+  height: 76px;
+  padding: 0.45rem;
+  overflow: hidden;
+  background-color: #fff;
+  border: 1px solid var(--global-divider-color);
+  border-radius: 0.55rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+}
+
+.research-experience .experience-logo figure {
+  width: 100%;
+  margin: 0;
+}
+
+.research-experience .experience-logo img {
+  width: 100%;
+  height: 62px;
+  object-fit: contain;
+}
+
+.research-experience .experience-info {
+  flex: 1;
+  min-width: 0;
+}
+
+.research-experience .experience-heading {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.research-experience .experience-institution {
+  margin: 0;
+  font-size: 1.05rem;
+  font-weight: 600;
+  line-height: 1.45;
+}
+
+.research-experience .experience-period {
+  flex: 0 0 auto;
+  color: var(--global-text-color-light);
+  font-size: 0.9rem;
+  white-space: nowrap;
+}
+
+.research-experience .experience-details,
+.research-experience .experience-focus {
+  margin: 0.3rem 0 0;
+  line-height: 1.5;
+}
+
+.research-experience .experience-details {
+  color: var(--global-text-color);
+}
+
+.research-experience .experience-role {
+  font-weight: 500;
+}
+
+.research-experience .experience-separator {
+  margin: 0 0.35rem;
+  color: var(--global-text-color-light);
+}
+
+.research-experience .experience-focus {
+  color: var(--global-text-color-light);
+  font-size: 0.95rem;
+}
+
+@media (max-width: 576px) {
+  .research-experience .experience-entry {
+    align-items: flex-start;
+    gap: 0.9rem;
+    padding: 1rem 0;
+  }
+
+  .research-experience .experience-logo {
+    flex-basis: 78px;
+    width: 78px;
+    height: 64px;
+    padding: 0.35rem;
+  }
+
+  .research-experience .experience-logo img {
+    height: 52px;
+  }
+
+  .research-experience .experience-heading {
+    display: block;
+  }
+
+  .research-experience .experience-period {
+    display: block;
+    margin-top: 0.15rem;
+    white-space: normal;
+  }
+}
+
 // Education
 
 .education {

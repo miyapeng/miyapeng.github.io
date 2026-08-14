@@ -73,6 +73,12 @@ layout: default
       {% include selected_papers.liquid %}
     {% endif %}
 
+    <!-- Research Experience -->
+    {% if page.research_experience or page.experiences %}
+      <h2 id="research-experience">Research Experience</h2>
+      {% include research_experience.liquid %}
+    {% endif %}
+
     <!-- Social -->
     {% comment %} {% if page.social %}
       <div class="social">
@@ -82,7 +88,7 @@ layout: default
       </div>
     {% endif %} {% endcomment %}
 
-    
+
     <!-- Education -->
     {% if page.education or page.educations %}
       <h2>

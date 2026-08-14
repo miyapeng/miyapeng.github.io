@@ -16,6 +16,7 @@ profile:
 news: true # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
+research_experience: true # includes a list of research internship items
 education: true # includes a list of education items
 
 announcements:
@@ -27,6 +28,23 @@ latest_posts:
   enabled: false
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
+
+experiences:
+  - period: "Mar 2026 – Sep 2026"
+    role: "Research Intern"
+    institution: "Shanghai Artificial Intelligence Laboratory (Shanghai AI Lab)"
+    institution_url: "https://www.shlab.org.cn/"
+    mentor: "Bin Fu"
+    focus: "Multimodal Understanding and Generation"
+    icon: "shlab_logo.png"
+  - period: "Oct 2024 – Aug 2025"
+    role: "Research Intern"
+    institution: "Beijing Institute for General Artificial Intelligence (BIGAI)"
+    institution_url: "https://www.bigai.ai/"
+    mentor: "Qing Li"
+    mentor_url: "https://scholar.google.com/citations?user=iwdFZBEAAAAJ&hl=zh-CN"
+    focus: "LLM/VLM Agents and Multimodal Generation"
+    icon: "bigai_logo.png"
 
 educations:
   - year: "2025 - Present"
