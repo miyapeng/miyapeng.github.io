@@ -1,20 +1,36 @@
 {% if page.educations and page.educations.size > 0 %}
   <div class="education">
     {% for edu in page.educations %}
-      <div class="edu-entry d-flex align-items-center">
+      <article class="edu-entry">
         {% if edu.icon %}
-          <div class="edu-icon">
-            {% assign entry_path = edu.icon | prepend: '/assets/img/' %}
-            {% include figure.liquid loading="eager" path=entry_path width="56px" class="preview z-depth-1 rounded" alt=edu.title %}
+          <div class="edu-logo">
+            {% assign logo_path = edu.icon | prepend: '/assets/img/' %}
+            {% include figure.liquid loading="lazy" path=logo_path alt=edu.institution %}
           </div>
         {% endif %}
+
         <div class="edu-info">
-          {% if edu.year %}
-            <p class="edu-year mb-1"><strong>{{ edu.year }}</strong></p>
+          <div class="edu-heading">
+            <h3 class="edu-institution">{{ edu.institution }}</h3>
+            <span class="edu-period">{{ edu.period }}</span>
+          </div>
+
+          {% if edu.degree %}
+            <p class="edu-degree">{{ edu.degree }}</p>
           {% endif %}
-          <p class="edu-title mb-0">{{ edu.title }}</p>
+
+          {% if edu.advisor %}
+            <p class="edu-advisor">
+              Advisor:
+              {% if edu.advisor_url %}
+                <a href="{{ edu.advisor_url }}">{{ edu.advisor }}</a>
+              {% else %}
+                {{ edu.advisor }}
+              {% endif %}
+            </p>
+          {% endif %}
         </div>
-      </div>
+      </article>
     {% endfor %}
   </div>
 {% endif %}

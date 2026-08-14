@@ -1002,69 +1002,119 @@ footer.sticky-bottom {
 // Education
 
 .education {
-  margin-top: 0.75rem;
+  margin: 0.75rem 0 0;
 }
 
 .education .edu-entry {
-  gap: 1.15rem;
-  margin-bottom: 1.8rem;
+  display: flex;
+  align-items: center;
+  gap: 1.25rem;
+  padding: 1.1rem 0;
+  border-bottom: 1px solid var(--global-divider-color);
+}
+
+.education .edu-entry:first-child {
+  padding-top: 0.35rem;
 }
 
 .education .edu-entry:last-child {
-  margin-bottom: 0;
+  border-bottom: 0;
+  padding-bottom: 0;
 }
 
-.education .edu-icon {
-  flex: 0 0 56px;
+.education .edu-logo {
+  display: flex;
+  flex: 0 0 108px;
+  align-items: center;
+  justify-content: center;
+  width: 108px;
+  height: 76px;
+  padding: 0.45rem;
+  overflow: hidden;
+  background-color: #fff;
+  border: 1px solid var(--global-divider-color);
+  border-radius: 0.55rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
 }
 
-.education .edu-icon .preview {
+.education .edu-logo figure {
+  width: 100%;
   margin: 0;
 }
 
-.education .edu-icon img {
-  width: 56px;
-  height: 56px;
+.education .edu-logo img {
+  width: 100%;
+  height: 62px;
   object-fit: contain;
-  background-color: #fff;
 }
 
 .education .edu-info {
+  flex: 1;
   min-width: 0;
 }
 
-.education .edu-year {
+.education .edu-heading {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.education .edu-institution {
+  margin: 0;
   font-size: 1.05rem;
+  font-weight: 600;
+  line-height: 1.45;
+}
+
+.education .edu-period {
+  flex: 0 0 auto;
+  color: var(--global-text-color-light);
+  font-size: 0.9rem;
+  white-space: nowrap;
+}
+
+.education .edu-degree,
+.education .edu-advisor {
+  margin: 0.3rem 0 0;
+  line-height: 1.5;
+}
+
+.education .edu-degree {
   color: var(--global-text-color);
 }
 
-.education .edu-title {
-  font-size: 1rem;
-  line-height: 1.6;
-  color: var(--global-text-color);
+.education .edu-advisor {
+  color: var(--global-text-color-light);
+  font-size: 0.95rem;
 }
 
 @media (max-width: 576px) {
   .education .edu-entry {
-    align-items: flex-start !important;
+    align-items: flex-start;
     gap: 0.9rem;
-    margin-bottom: 1.4rem;
+    padding: 1rem 0;
   }
 
-  .education .edu-icon,
-  .education .edu-icon img {
-    width: 50px;
-    height: 50px;
-    flex-basis: 50px;
+  .education .edu-logo {
+    flex-basis: 78px;
+    width: 78px;
+    height: 64px;
+    padding: 0.35rem;
   }
 
-  .education .edu-year {
-    font-size: 1rem;
+  .education .edu-logo img {
+    height: 52px;
   }
 
-  .education .edu-title {
-    font-size: 0.98rem;
-    line-height: 1.5;
+  .education .edu-heading {
+    display: block;
+  }
+
+  .education .edu-period {
+    display: block;
+    margin-top: 0.15rem;
+    white-space: normal;
   }
 }
 

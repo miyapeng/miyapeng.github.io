@@ -47,11 +47,15 @@ experiences:
     icon: "bigai_logo.png"
 
 educations:
-  - year: "2025 - Present"
-    title: "PhD in Information and Communication Engineering, University of Science and Technology of China(USTC), China"
+  - period: "2025 – Present"
+    institution: "University of Science and Technology of China (USTC)"
+    degree: "PhD in Information and Communication Engineering"
+    advisor: "Jie Wang"
+    advisor_url: "https://miralab.ai/people/jie-wang/"
     icon: "ustc_logo.jpg"
-  - year: "2021 - 2025"
-    title: "BSc in Computer Science, Harbin Institute of Technology (HIT), China"
+  - period: "2021 – 2025"
+    institution: "Harbin Institute of Technology (HIT)"
+    degree: "BSc in Computer Science and Technology"
     icon: "hit_logo.png"
 ---
 
