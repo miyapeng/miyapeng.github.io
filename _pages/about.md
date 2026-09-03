@@ -50,8 +50,8 @@ educations:
   - period: "2025 – Present"
     institution: "University of Science and Technology of China (USTC)"
     degree: "PhD in Information and Communication Engineering"
-    advisor: "Jie Wang"
-    advisor_url: "https://miralab.ai/people/jie-wang/"
+    advisor: "An Zhang"
+    advisor_url: "https://anzhang314.github.io/"
     icon: "ustc_logo.jpg"
   - period: "2021 – 2025"
     institution: "Harbin Institute of Technology (HIT)"
@@ -59,6 +59,6 @@ educations:
     icon: "hit_logo.png"
 ---
 
-I am a phd student of University of Science and Technology of China(USTC) ,advised by [Jie Wang](https://miralab.ai/people/jie-wang/). Previously, I receive my bachelor's degree in Computer Science and Technology from Harbin Institute of Technology(HIT) in 2025. 
+I am a PhD student at the University of Science and Technology of China (USTC) and a member of [AlphaLab](https://alphalab-ustc.github.io/index.html), advised by [An Zhang](https://anzhang314.github.io/). Previously, I received my bachelor's degree in Computer Science and Technology from Harbin Institute of Technology (HIT) in 2025.
 
 Currently, I am focusing on research in **Multimodal and LLM Agents**.  Feel free to reach out if you are interested in my work! 🤝
